@@ -15,9 +15,9 @@
 #define MAX_HUMIDITY 100
 #define SEND_INTERVAL 10
 
-char pubkey[] = "pub-c-d296a56e-3228-489a-b468-305f41131489";
-char subkey[] = "sub-c-f7c6f0d6-a4ff-11e7-b003-222aeb593f38";
-char channel[] = "ParticlePN";
+char pubkey[] = "publish key";
+char subkey[] = "subscribe key";
+char channel[] = "channel";
 
 DHT dht(DHTPIN, DHTTYPE);
 int failed = 0;
